@@ -3,10 +3,57 @@
 	<head>
 		<title>Belajar Form</title>
 		<meta name="author" content="M Radithya Rafif">
+		<style>
+		body{
+			background-color : lightblue;
+			background-image:url("OIP.jpeg");
+			background-size: cover;
+			
+		}
+		h1{
+			color:blue;
+			font-family:italic;
+			text-align:center;
+		}
+		.text-merah{
+			color:red;
+		}
+		*{
+			color:black;
+			font-family :Arial;
+		}
+		
+		.button{background-color:lightpink;
+		padding:15px;
+		font-weight:bold;
+		border-ra':5px;
+		border-color:darkblue;
+		
+		
+		}
+		
+		
+		textarea,select,input[type="text"], [type="number"],[type="email"],[type="date"],[type="file"]{
+		border-radius: 15px;
+		background-color: lightpink;
+		color: magenta;
+		padding :10px;
+		width:90%;
+		border-color :magenta;
+		}
+		table{
+			background-color:rgb(231,227,222);
+			opacity:90%
+		}
+		
+		
+		</style>
 	<head>
 	<body>
 	
 	    <h1>Form Pendaftaran</h1>
+		<h1 class="text-merah">Data Mahasiswa</h1>
+		
 		<form action="" method"post">
 		<table width="100%">
 		<tr>
@@ -126,7 +173,7 @@
 			   <td> : </td>
 		       <td><input type="number" name="hp"></td>
             <tr>			   
-			 <td><input type="submit"> <input type="reset"></td>
+			 <td><input class ="button"type="submit"> <input class="button" type="reset"> </td>
 			</tr>
 		  </fieldset>
 		  </html>
